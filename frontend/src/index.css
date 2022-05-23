@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .input-bar-button {
+    @apply bg-sky-200 py-1 rounded shadow shadow-slate-900 text-lg text-slate-900 active:bg-sky-100 w-2/4 mt-3;
+  }
+  .input-bar-inputs {
+    @apply rounded placeholder:pl-3;
+  }
+}
