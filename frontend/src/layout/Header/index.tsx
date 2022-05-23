@@ -3,7 +3,7 @@ import { FaAsterisk } from 'react-icons/fa/';
 
 function Header() {
   return (
-    <header className="grid grid-cols-3 items-cente text-sky-500 py-2 shadow-md">
+    <header className="grid grid-cols-3 items-center text-sky-500 py-2 shadow-md">
       <div className="flex justify-center items-center gap-3 h-full text-2xl">
         <FaAsterisk />
         <p>Ebytr</p>
